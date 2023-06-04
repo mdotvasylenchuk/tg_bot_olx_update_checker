@@ -1,0 +1,77 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionpack (7.0.5)
+      actionview (= 7.0.5)
+      activesupport (= 7.0.5)
+      rack (~> 2.0, >= 2.2.4)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.2.0)
+    actionview (7.0.5)
+      activesupport (= 7.0.5)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    activesupport (7.0.5)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    builder (3.2.4)
+    coderay (1.1.3)
+    concurrent-ruby (1.2.2)
+    crass (1.0.6)
+    dotenv (2.8.1)
+    erubi (1.12.0)
+    faraday (2.7.5)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    httpclient (2.8.3)
+    i18n (1.13.0)
+      concurrent-ruby (~> 1.0)
+    loofah (2.21.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
+    method_source (1.0.0)
+    minitest (5.18.0)
+    nokogiri (1.15.2-x86_64-linux)
+      racc (~> 1.4)
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    racc (1.6.2)
+    rack (2.2.7)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.6.0)
+      loofah (~> 2.21)
+      nokogiri (~> 1.14)
+    ruby2_keywords (0.0.5)
+    sequel (5.68.0)
+    telegram-bot (0.15.7)
+      actionpack (>= 4.0, < 7.1)
+      activesupport (>= 4.0, < 7.1)
+      httpclient (~> 2.7)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  activesupport
+  dotenv
+  faraday
+  nokogiri
+  pry
+  sequel
+  telegram-bot
+
+BUNDLED WITH
+   2.3.3
