@@ -1,2 +1,2 @@
-# Olx_update_checker
+# Olx update checker
 Need to refactor
